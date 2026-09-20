@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "fuente": "Mimo Nutricion - Plan de Alimentacion 100% personalizado",
+    "paciente": "Napoli Federico",
+    "objetivo": "descenso de peso",
+    "notas": "Transcripcion literal del PDF de la nutricionista, sin agregados. Version simplificada.",
+    "objetivosPlan": [
+      "Lograr un descenso de peso saludable y progresivo",
+      "Aumentar actividad fisica",
+      "Mejorar valores de laboratorio"
+    ],
+    "reglaGeneral": "Las cantidades son diarias, no por comida. Se pueden repartir libremente entre desayuno/merienda y entre almuerzo/cena, siempre buscando alcanzar y no exceder los totales indicados."
+  },
+  "equivalenciasDiarias": {
+    "desayunoMerienda": {
+      "lecheDescremada": { "cantidad": 200, "unidad": "ml", "equivalencia": "1 taza", "marcasReferencia": ["La Serenisima Leche Fresca Liviana", "La Serenisima Protein 46g", "La Serenisima Menos Calorias 0%", "La Serenisima Reducida en Lactosa", "Las Tres Ninas Vida Activa Proteina 50g"] },
+      "yogurDescremado": { "cantidad": 200, "unidad": "ml", "equivalencia": "1 pote grande", "marcasReferencia": ["Tregar Natural sin azucar", "Dahi Firme Descremado Natural", "Ser Natural", "Yogurisimo", "Ser PRO+ 15g proteina", "Yogurade Natural sin azucar anadida"] },
+      "quesoUntableDescremado": { "cantidad": 4, "unidad": "cditas tipo te al ras", "marcasReferencia": ["Tregar Blanco Light", "Finlandia Mas Liviano (La Serenisima)", "CasanCrem", "Tregar Ricotta Light"] },
+      "quesoCremosoMagro": { "cantidad": 60, "unidad": "g", "equivalencia": "2 rebanadas", "marcasReferencia": ["La Paulina 10% Port Salut Equilibrio", "La Serenisima Port Salut", "Tregar Port Salut Light"] },
+      "frutas": { "cantidad": "3 unidades o 1 taza trozada grande" },
+      "palta": { "frecuencia": "3 veces por semana", "notaPendiente": "cantidad por vez no especificada en el PDF" },
+      "huevos": { "cantidad": "2 enteros + 2 claras", "frecuencia": "por dia" },
+      "frutosSecos": { "cantidad": 10, "unidad": "g", "equivalencia": "10 almendras o 5 nueces" },
+      "carbohidrato": {
+        "reglaSeleccion": "elegir 1 opcion por dia",
+        "opciones": [
+          { "nombre": "Pan integral", "cantidad": 50, "unidad": "g", "equivalencia": "2 rebanadas finas", "marcasReferencia": ["Val Maira Integral Total", "Macrobiotica Multicereal"] },
+          { "nombre": "Galletas de arroz", "cantidad": 3, "unidad": "unidades", "marcasReferencia": ["Dos Hermanos saladas extra finas"] },
+          { "nombre": "Avena", "cantidad": null, "unidad": "taza", "notaPendiente": "PDF original dice '1/taza', sin numero", "marcasReferencia": ["Quaker Avena Integral Instantanea", "Gronix Avena Instantanea"] }
+        ]
+      }
+    },
+    "almuerzoCena": {
+      "carnesMagras": {
+        "cantidad": 200,
+        "unidad": "g",
+        "equivalencia": "1 churrasco grande, 2 milanesas, 2 filet, 1 pechuga de pollo",
+        "opciones": ["lomo", "peceto", "solomillo", "pechuga de pollo", "carre", "merluza", "atun al natural", "bife", "salmon"]
+      },
+      "vegetales": { "cantidad": 400, "unidad": "g", "equivalencia": "4 vegetales chicos o 3 vegetales grandes" },
+      "papaChocloBatata": { "cantidad": "maximo 1 por dia" },
+      "legumbres": { "cantidad": 3, "unidad": "cdas soperas", "uso": "sumar a ensaladas para mas proteina" },
+      "carbohidratoCocido": {
+        "cantidad": 80,
+        "unidad": "g en cocido",
+        "frecuencia": "3 veces por semana",
+        "equivalencia": "1/4 plato playo cocido de fideos/arroz/quinoa/polenta",
+        "alternativas": ["2 empanadas", "2 porciones de pizza", "2 porciones de tarta de tapa simple"],
+        "marcasReferencia": ["Matarazzo Integral", "Legume Pasta de Lenteja", "Lucchetti 3 Vegetales", "Gallo Integral Selectos", "Gallo Especialidades Yamani", "La Saltena Balance"],
+        "reglas": [
+          "usar integrales preferentemente",
+          "acompañar siempre con vegetales",
+          "ideal como pre-entreno",
+          "preferir en el almuerzo",
+          "nunca eliminarlo, es la mayor fuente de energia"
+        ]
+      }
+    },
+    "otros": {
+      "aceites": { "cantidad": 2, "unidad": "cdas soperas", "frecuencia": "por dia", "marcasReferencia": ["Natura (girasol)", "aceite de oliva virgen extra (marca no legible con certeza)", "aceite de chia y de sesamo (marca no legible con certeza)"] },
+      "condimentos": { "cantidad": "libres" },
+      "infusiones": { "detalle": "cafes no torrados, te verde, manzanilla, etc. preferentemente amargos o con edulcorante medido" },
+      "bebidas": { "permitidas": ["agua", "soda", "jugos naturales de fruta"], "evitar": ["gaseosas", "jugos envasados"] }
+    }
+  },
+  "menuEjemploOriginal": {
+    "lunes": { "desayuno": "Cafe c/leche (1/2 taza) + 2 rebanadas finas de pan integral + 4 cditas de queso untable + 1/4 palta", "almuerzo": "Wok de arroz integral (1/4 plato) + pechuga de pollo (100g) + cebolla/morron/brocoli gratinados", "merienda": "Yogur descremado grande + 1 fruta + frutos secos (5g)", "cena": "Pastel de pollo y calabaza con queso port salut" },
+    "martes": { "desayuno": "Yogur descremado grande + 1 fruta + frutos secos (5g)", "almuerzo": "Tortilla de papa y espinaca, cebolla y queso port salut + ensalada", "merienda": "Tostado integral con queso port salut + huevo + cherrys + rucula y palta + cafe con leche", "cena": "Churrasco (magro) + ensalada" },
+    "miercoles": { "desayuno": "3 tostadas de arroz c/queso untable descremado y huevo + cafe con leche", "almuerzo": "2 rapiditas integrales de verdura y atun", "merienda": "Yogur descremado grande + 1 fruta + frutos secos (5g)", "cena": "2 filet de merluza con queso port salut + ensalada" },
+    "jueves": { "desayuno": "Yogur descremado grande + 1 fruta + frutos secos (5g)", "almuerzo": "2 porciones tarta tapa simple de verduras (a eleccion) + ensalada", "merienda": "2 panqueques de avena y banana + fruta + cafe con leche", "cena": "Wok de solomillo y verduras + ensalada" },
+    "viernes": { "desayuno": "Panqueque de avena salado + queso port salut + palta + cherrys", "almuerzo": "2 milanesas de pollo + ensalada", "merienda": "Yogur descremado grande + 1 fruta + frutos secos (5g)", "cena": "Pollo al horno + papa/batata/morron/cebolla" },
+    "sabado": { "desayuno": "Yogur descremado grande + 1 fruta + frutos secos (5g)", "almuerzo": "Ensalada Caesar", "merienda": "Cafe c/leche (1/2 taza) + 2 rebanadas finas de pan integral + 4 cditas de queso untable + 1/4 palta", "cena": "Libre" },
+    "domingo": { "desayuno": "Yogur descremado grande + 1 fruta + frutos secos (5g)", "almuerzo": "Libre", "merienda": "Libre", "cena": "Carne al horno con vegetales + ensalada" }
+  },
+  "categoriasPreparacionSugeridas": ["Poke bowls", "Wok", "Tartas", "Proteinas + guarnicion", "Yogures", "Super tostadas"],
+  "notas": [
+    "La cantidad de avena no queda clara en el PDF (dice '1/taza', sin numero)",
+    "La cantidad de palta por vez no esta especificada, solo la frecuencia (3 veces por semana)",
+    "Dos marcas de aceite no se leen con certeza en la foto (oliva virgen extra, y la de chia/sesamo)"
+  ]
+}
